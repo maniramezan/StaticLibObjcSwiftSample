@@ -1,0 +1,7 @@
+module StaticLib {
+    export *
+    
+    explicit module Private {
+        header "PrivateClass.h"
+    }
+}
